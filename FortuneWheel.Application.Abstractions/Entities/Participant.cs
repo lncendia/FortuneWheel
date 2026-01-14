@@ -1,6 +1,8 @@
-﻿namespace FortuneWheel.Application.Abstractions.Entities;
+﻿using FortuneWheel.Application.Abstractions.Entities.Abstractions;
 
-public class Participant
+namespace FortuneWheel.Application.Abstractions.Entities;
+
+public class Participant : IVersionedEntity
 {
   public long Id { get; init; }
   public long TeamId { get; init; }
