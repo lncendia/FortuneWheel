@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FortuneWheel", "FortuneWheel\FortuneWheel.csproj", "{93D8AC9A-C3B4-4D12-B6B6-5906355C0FD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FortuneWheel.Infrastructure.Web", "FortuneWheel.Infrastructure.Web\FortuneWheel.Infrastructure.Web.csproj", "{389992E1-F8C4-4118-9A7E-268002CA12DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FortuneWheel.Infrastructure.Storage", "FortuneWheel.Infrastructure.Storage\FortuneWheel.Infrastructure.Storage.csproj", "{6EF70E74-EAB9-4F22-9B8F-397847A97F12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FortuneWheel.Application.Abstractions", "FortuneWheel.Application.Abstractions\FortuneWheel.Application.Abstractions.csproj", "{04BD157C-8CE3-458A-AFEF-BF4D91892032}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FortuneWheel.Application.Services", "FortuneWheel.Application.Services\FortuneWheel.Application.Services.csproj", "{93091C17-9493-4579-91E4-4DEC3C7F0EB4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{B77B3AA0-6E90-41C5-9183-9447F0AB5C8C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{90FA6677-2019-4CCD-A8C6-F2402F484497}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{93D8AC9A-C3B4-4D12-B6B6-5906355C0FD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93D8AC9A-C3B4-4D12-B6B6-5906355C0FD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93D8AC9A-C3B4-4D12-B6B6-5906355C0FD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93D8AC9A-C3B4-4D12-B6B6-5906355C0FD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{389992E1-F8C4-4118-9A7E-268002CA12DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{389992E1-F8C4-4118-9A7E-268002CA12DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{389992E1-F8C4-4118-9A7E-268002CA12DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{389992E1-F8C4-4118-9A7E-268002CA12DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EF70E74-EAB9-4F22-9B8F-397847A97F12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EF70E74-EAB9-4F22-9B8F-397847A97F12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EF70E74-EAB9-4F22-9B8F-397847A97F12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EF70E74-EAB9-4F22-9B8F-397847A97F12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04BD157C-8CE3-458A-AFEF-BF4D91892032}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04BD157C-8CE3-458A-AFEF-BF4D91892032}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04BD157C-8CE3-458A-AFEF-BF4D91892032}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04BD157C-8CE3-458A-AFEF-BF4D91892032}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93091C17-9493-4579-91E4-4DEC3C7F0EB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93091C17-9493-4579-91E4-4DEC3C7F0EB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93091C17-9493-4579-91E4-4DEC3C7F0EB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93091C17-9493-4579-91E4-4DEC3C7F0EB4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{04BD157C-8CE3-458A-AFEF-BF4D91892032} = {B77B3AA0-6E90-41C5-9183-9447F0AB5C8C}
+		{93091C17-9493-4579-91E4-4DEC3C7F0EB4} = {B77B3AA0-6E90-41C5-9183-9447F0AB5C8C}
+		{6EF70E74-EAB9-4F22-9B8F-397847A97F12} = {90FA6677-2019-4CCD-A8C6-F2402F484497}
+		{389992E1-F8C4-4118-9A7E-268002CA12DD} = {90FA6677-2019-4CCD-A8C6-F2402F484497}
+	EndGlobalSection
+EndGlobal
